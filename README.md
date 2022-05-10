@@ -7,7 +7,7 @@ This is a sample project based on micronaut framework which includes:
 
 ## Running
 
-### To the natives
+### Java goes native
 The following gradle command builds the artifact to a native binary:  
 
 `./gradlew nativeCompile`
