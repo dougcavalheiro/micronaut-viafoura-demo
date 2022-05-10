@@ -1,6 +1,6 @@
 # Micronaut viafoura demo
 
-This is a sample project based on micronaut framework. This project inclues
+This is a sample project based on micronaut framework which includes:
 - A simple micronaut rest framework
 - K6 load testing script
 - Grafana dashboard for k6 test results
@@ -14,18 +14,19 @@ The following gradle command builds the artifact to a native binary:
 
 The binary will be located at _/build/native/nativeCompile_ folder.
 
-### Docker running
+### Docker
 
 By running `docker-compose -f docker-compose.local.yaml up` the entire environment + k6 tests will start to execute. To track them just open _http://localhost:3000/d/k6/k6-load-testing-results?orgId=1&refresh=5s_ into your browser. 
 
 ## Contributing
 
-This project just runs the basics of micronaut native compilation + k6 load testing. It might be helpful for us to replicate the same idea in other frameworks in order to compare them.
-Adding some features that we are used to can help experiment with this framework as well, such as:
+This project runs the micronaut basics for native compilation + k6 load testing. It might be helpful for us to replicate the same idea into other frameworks in order to compare them.
+Adding some features that we are used to can help to experiment this framework as well, such as:
 - Event message handling
 - Database operations (with or without Jooq)
 - Metrics
 - Testing
+- Reactive
 
 Thanks to [Shamil](https://github.com/skashmeri) who shared [this infoq article](https://www.infoq.com/articles/native-java-micronaut/) 
 
